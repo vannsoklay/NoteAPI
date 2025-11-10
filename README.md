@@ -26,8 +26,8 @@ The API supports **CRUD operations** for users and notes, authentication (login/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/notes-api.git
-cd notes-api
+git clone git@github.com:vannsoklay/NoteAPI.git
+cd NoteAPI
 ```
 
 ### 2. Configure Database
