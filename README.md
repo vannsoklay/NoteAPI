@@ -42,9 +42,32 @@ Update **appsettings.json**:
 }
 ```
 
+### 3. Docker Database
+
+```
+# You can connect to the database using your backend .env settings:
+# MySQL Configuration
+
+MYSQL_ROOT_PASSWORD=helloworld
+MYSQL_DATABASE=test
+MYSQL_USER=user
+MYSQL_PASSWORD=helloworld123
+MYSQL_PORT=3306
+
+```
+
+```bash
+# run container
+docker-compose up -d
+# show container 
+docker ps
+# stop container
+docker-compose down
+```
+
 > Make sure SQL Server is running and accessible.
 
-### 3. Apply EF Migrations
+### 4. Apply EF Migrations
 
 Generate the database schema using Entity Framework migrations:
 
